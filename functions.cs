@@ -3,7 +3,7 @@ using NLog;
 public static class functions
 {
 
-    static public int ingresar_positivo()
+    static public int ingresarPositivo()
     {
         NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         
@@ -24,7 +24,7 @@ public static class functions
 
     }
 
-    static public string ingresar_string(){
+    static public string ingresarString(){
 
         NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 
